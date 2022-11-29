@@ -4,7 +4,7 @@
 rm -rf build_demo
 
 #cloning the central repo to local workspace
-git clone https://github.com/madhupk963/build_demo.git
+git clone https://github.com/Amruthateco/automation-scripts.git
 
 #get in to the git repo directory
 cd  build_demo
