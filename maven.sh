@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #delete privous existing repo folder, so that fresh copy can be clone
-rm -rf build_demo
+rm -rf hello-world-war
 
 #cloning the central repo to local workspace
 git clone https://github.com/Amruthateco/hello-world-war.git
