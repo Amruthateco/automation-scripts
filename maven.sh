@@ -4,17 +4,17 @@
 rm -rf build_demo
 
 #cloning the central repo to local workspace
-git clone https://github.com/Amruthateco/automation-scripts.git
+git clone https://github.com/Amruthateco/hello-world-war.git
 
 #get in to the git repo directory
-cd  build_demo
+cd  hello-world-war
  
 #before bulding java and maven need to be pre-installed
 #run the maven package command to build .war file
 mvn package
 
 #copy the .war file to webapps under tomcat server in root directory
-#cp -r  target/build_demo.war  /opt/tomcat10v/webapps/
+#cp -r  target/hello-world-war.war  /opt/tomcat10v/webapps/
 
 #switch to bin to restart tomcat server
 #cd /opt/tomcat10v/bin
